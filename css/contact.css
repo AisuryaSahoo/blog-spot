@@ -1,0 +1,44 @@
+.contact-content{
+    height: 80vh;
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    /* padding: 20px 20px; */
+    /* background-color: rgba(128, 245, 245, 0.432); */
+    /* background-color: blue; */
+}
+.contact-content::after{
+    content: "";
+    position: absolute;
+    top:0;
+    background: url(../images/back-img.jpg) no-repeat;
+    background-size:cover;
+    height: inherit;
+    width: 100%;
+    opacity: .15;
+    z-index: -1;    
+}
+.contact-container{
+    padding-top: 20px;
+    /* padding-left:10px; */
+}
+.contact-form{
+    /* width: 40vw; */
+    /* padding-top: 20px; */
+}
+.input-container{
+    margin-top: 15px;
+}
+.contact-form form .form-input{
+    width: 40vw;
+    margin: 0px 0px;
+    /* padding: 8px 10px; */
+    
+}
+
+.contact-form form textarea{
+    height: 200px;
+}
+.contact-form form button{
+    margin: 20px 0px;
+}
